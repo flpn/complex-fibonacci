@@ -9,7 +9,7 @@ services:
   redis:
     image: 'redis'
   
-  server:
+  api:
     build: 
       dockerfile: Dockerfile.dev
       context: ./server
